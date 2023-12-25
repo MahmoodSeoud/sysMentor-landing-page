@@ -7,6 +7,12 @@ import FeaturesBg from '@/public/images/features-bg.png'
 import FeaturesElement from '@/public/images/features-element.png'
 import vmatDemo from '@/public/images/vmatdemo.png'
 import cacheDemo from '@/public/images/demo.png'
+import { BsMotherboardFill } from "react-icons/bs";
+import { BsMemory } from "react-icons/bs";
+import { BsDeviceSsdFill } from "react-icons/bs";
+
+
+
 
 export default function Features() {
 
@@ -59,9 +65,7 @@ export default function Features() {
                     <div className="text-gray-600">Demystify virtual memory address translation with sysMentor's user-friendly approach, turning complexity into clarity.</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
-                    <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M11.953 4.29a.5.5 0 00-.454-.292H6.14L6.984.62A.5.5 0 006.12.173l-6 7a.5.5 0 00.379.825h5.359l-.844 3.38a.5.5 0 00.864.445l6-7a.5.5 0 00.075-.534z" />
-                    </svg>
+                    <BsDeviceSsdFill />
                   </div>
                 </a>
                 <a
@@ -74,9 +78,7 @@ export default function Features() {
                     <div className="text-gray-600">Explore the fascinating world of cache simulation on sysMentor, where you get to be the cache! </div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
-                    <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M11.854.146a.5.5 0 00-.525-.116l-11 4a.5.5 0 00-.015.934l4.8 1.921 1.921 4.8A.5.5 0 007.5 12h.008a.5.5 0 00.462-.329l4-11a.5.5 0 00-.116-.525z" fillRule="nonzero" />
-                    </svg>
+                    <BsMemory />
                   </div>
                 </a>
                 <a
@@ -89,9 +91,7 @@ export default function Features() {
                     <div className="text-gray-600">Master heap allocation effortlessly with sysMentor's straightforward guidance.</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
-                    <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M11.334 8.06a.5.5 0 00-.421-.237 6.023 6.023 0 01-5.905-6c0-.41.042-.82.125-1.221a.5.5 0 00-.614-.586 6 6 0 106.832 8.529.5.5 0 00-.017-.485z" fill="#191919" fillRule="nonzero" />
-                    </svg>
+                    <BsMotherboardFill />
                   </div>
                 </a>
               </div>
