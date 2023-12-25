@@ -40,7 +40,7 @@ export default function Features() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 mb-4">Prep for Success</h1>
+            <h1 className="h2 mb-4">Key features</h1>
             <p className="text-xl text-gray-600">Navigate Your Journey with Comprehensive Exam Prep Resources - Reading You Up to Exam Excellence!</p>
           </div>
 
