@@ -1,18 +1,16 @@
 'use client'
 
-import { useState, useRef, useEffect } from 'react'
+import { useState, useRef, useEffect, cache } from 'react'
 import { Transition } from '@headlessui/react'
 import Image from 'next/image'
-import FeaturesBg from '@/public/images/features-bg.png'
-import FeaturesElement from '@/public/images/features-element.png'
 import vmatDemo from '@/public/images/vmatdemo.png'
+import vmatTableDemo from '@/public/images/vmatdemo2.png'
 import cacheDemo from '@/public/images/demo.png'
 import { BsMotherboardFill } from "react-icons/bs";
 import { BsMemory } from "react-icons/bs";
 import { BsDeviceSsdFill } from "react-icons/bs";
-
-
-
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
 
 export default function Features() {
 
@@ -116,7 +114,23 @@ export default function Features() {
                     unmount={false}
                   >
                     <div className="relative inline-flex flex-col">
-                      <Image className="md:max-w-none transform animate-float" src={cacheDemo} width={500} height={300} alt="Element" style={{ top: '30%' }} />
+                      <Carousel>
+                        <div>
+                          <Image src={cacheDemo} alt="" />
+                          <p className="legend">Legend 1</p>
+                        </div>
+                        <div>
+                          <Image src={cacheDemo} alt="" />
+                          <p className="legend">Legend 2</p>
+                        </div>
+                        <div>
+                          <Image src={cacheDemo} alt="" />
+                          <p className="legend">Legend 3</p>
+                        </div>
+                      </Carousel>
+
+                      {/*                       <Image className="md:max-w-none transform animate-float" src={cacheDemo} width={609} height={1011} alt="Element" style={{ top: '30%' }} /> */}
+
                     </div>
                   </Transition>
                   {/* Item 2 */}
@@ -134,7 +148,7 @@ export default function Features() {
                     unmount={false}
                   >
                     <div className="relative inline-flex flex-col">
-                      <Image className="md:max-w-none transform animate-float" src={vmatDemo} width={500} height={300} alt="Element" style={{ top: '30%' }} />
+                      <Image className="md:max-w-none transform animate-float" src={vmatDemo} width={1000} height={1061} alt="Element" style={{ top: '30%' }} />
                     </div>
                   </Transition>
                   {/* Item 3 */}

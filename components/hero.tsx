@@ -1,5 +1,6 @@
 import ModalVideo from '@/components/modal-video'
-import demo from '@/public/images/demo.png'
+import demo from '@/public/images/vmatdemo.png'
+
 
 export default function Hero() {
   return (
@@ -32,10 +33,10 @@ export default function Hero() {
             <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Computer Systems made <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">easy!</span></h1>
             <div className="max-w-3xl mx-auto">
               <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Your Path to Exam Excellence through Innovative Digilatilasion Learning.</p><div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
-                  <div className="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:mx-0">
-                    <input type="email" className="form-input w-full appearance-none bg-gray-800 border border-gray-700 focus:border-gray-600 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-gray-500" placeholder="Your email…" aria-label="Your email…" />
-                    <a className="btn text-white bg-blue-600 hover:bg-blue-700 shadow" href="#0">Subscribe</a>
-                  </div>
+                <div className="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:mx-0">
+                  <input type="email" className="form-input w-full appearance-none bg-gray-800 border border-gray-700 focus:border-gray-600 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-gray-500" placeholder="Your email…" aria-label="Your email…" />
+                  <a className="btn text-white bg-blue-600 hover:bg-blue-700 shadow" href="#0">Subscribe</a>
+                </div>
               </div>
             </div>
           </div>
@@ -43,12 +44,12 @@ export default function Hero() {
           {/* Hero image */}
           <ModalVideo
             thumb={demo}
-            thumbWidth={768}
-            thumbHeight={432}
+            thumbWidth={2021}
+            thumbHeight={1104}
             thumbAlt="Computer Systems made easy!"
           />
+        
         </div>
-
       </div>
     </section>
   )
