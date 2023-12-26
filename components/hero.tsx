@@ -42,7 +42,7 @@ export default function Hero() {
 
           {/* Hero image */}
           <ModalVideo
-            thumb={'/vmatdemo.png'}
+            thumb={'/LANDING/out/vmatdemo.png'}
             thumbWidth={2021}
             thumbHeight={1104}
             thumbAlt="Computer Systems made easy!"
