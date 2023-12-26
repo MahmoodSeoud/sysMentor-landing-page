@@ -1,42 +1,22 @@
 {
   "pages": {
-    "/_not-found": [
-      "static/chunks/webpack-d5ab78fd32f39061.js",
-      "static/chunks/fd9d1056-ea4f02c0a4383bef.js",
-      "static/chunks/938-97f845deaffc21a2.js",
-      "static/chunks/main-app-e5f364def5ea6ebb.js",
-      "static/chunks/app/_not-found-111ab176b6437b1b.js"
-    ],
     "/layout": [
-      "static/chunks/webpack-d5ab78fd32f39061.js",
-      "static/chunks/fd9d1056-ea4f02c0a4383bef.js",
-      "static/chunks/938-97f845deaffc21a2.js",
-      "static/chunks/main-app-e5f364def5ea6ebb.js",
-      "static/chunks/986-38c20f951ea3b382.js",
-      "static/chunks/396-69ccc4d73e6004dd.js",
-      "static/css/b56281b3e5da1b65.css",
-      "static/chunks/app/layout-e8dd3627d638544f.js"
-    ],
-    "/(default)/page": [
-      "static/chunks/webpack-d5ab78fd32f39061.js",
-      "static/chunks/fd9d1056-ea4f02c0a4383bef.js",
-      "static/chunks/938-97f845deaffc21a2.js",
-      "static/chunks/main-app-e5f364def5ea6ebb.js",
-      "static/chunks/00cbbcb7-f3abcdcf7734471f.js",
-      "static/chunks/986-38c20f951ea3b382.js",
-      "static/chunks/2-7cb3231221b3945d.js",
-      "static/css/ae4ed9c503fd1e33.css",
-      "static/chunks/app/(default)/page-405a63d4322e5899.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
     ],
     "/(default)/layout": [
-      "static/chunks/webpack-d5ab78fd32f39061.js",
-      "static/chunks/fd9d1056-ea4f02c0a4383bef.js",
-      "static/chunks/938-97f845deaffc21a2.js",
-      "static/chunks/main-app-e5f364def5ea6ebb.js",
-      "static/chunks/986-38c20f951ea3b382.js",
-      "static/chunks/396-69ccc4d73e6004dd.js",
-      "static/css/f76788cadc76491e.css",
-      "static/chunks/app/(default)/layout-d19ba734fab7b8fb.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(default)/layout.css",
+      "static/chunks/app/(default)/layout.js"
+    ],
+    "/(default)/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(default)/page.css",
+      "static/chunks/app/(default)/page.js"
     ]
   }
 }

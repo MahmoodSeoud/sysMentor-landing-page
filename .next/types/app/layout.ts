@@ -1,4 +1,4 @@
-// File: /Users/liema/Code/sysMentor-landing-page/app/layout.tsx
+// File: C:\Users\mahmo\sysMentor\tailwind-landing-page-template\app\layout.tsx
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

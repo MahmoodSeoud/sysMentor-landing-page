@@ -14,7 +14,7 @@ export default function Header() {
   // detect whether user has scrolled the page down by 10px
   const scrollHandler = () => {
     window.pageYOffset > 10 ? setTop(false) : setTop(true)
-  }  
+  }
 
   useEffect(() => {
     scrollHandler()
@@ -33,9 +33,14 @@ export default function Header() {
             <p className='h3'>sysMentor</p>
           </div>
 
-          {/* Desktop navigation */}
+       {/* Desktop navigation */}
           <nav className="hidden md:flex md:grow">
-    
+            {/* Desktop sign in links */}
+            <ul className="flex grow justify-end flex-wrap items-center">
+              <li>
+                  <a className="btn text-white bg-blue-600 hover:bg-blue-700 shadow" href="#0">Join SysMentor</a>
+              </li>
+            </ul>
 
           </nav>
 
