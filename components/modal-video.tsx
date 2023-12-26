@@ -22,7 +22,7 @@ export default function ModalVideo({
       <div>
         <div className="relative flex justify-center mb-8" data-aos="zoom-y-out" data-aos-delay="450">
           <div className="flex flex-col justify-center">
-            <Image src={thumb} width={thumbWidth} height={thumbHeight} alt={thumbAlt} />
+            <img src={thumb} width={thumbWidth} height={thumbHeight} alt={thumbAlt} />
           </div>
         </div>
       </div>

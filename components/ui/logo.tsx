@@ -8,10 +8,9 @@ const loaderProp =({ src }: any) => {
 export default function Logo() {
   return (
     <Link href="/" className="block" aria-label="SysMentor">
-      <Image src={'/sysMentorIcon.png'} alt="SysMentor"
+      <img src={'/LANDING/out/sysMentorIcon.png'} alt="SysMentor"
         width={64}
         height={64}
-        loader={loaderProp}
       />
     </Link>
   )
