@@ -3,10 +3,10 @@ import type { StaticImageData } from 'next/image'
 import Image from 'next/image'
 
 interface ModalVideoProps {
-  thumb: StaticImageData
-  thumbWidth: number
-  thumbHeight: number
-  thumbAlt: string
+  thumb: string;
+  thumbWidth: number;
+  thumbHeight: number;
+  thumbAlt: string;
 }
 
 export default function ModalVideo({

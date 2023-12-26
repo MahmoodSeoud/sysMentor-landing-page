@@ -3,9 +3,7 @@
 import { useState, useRef, useEffect, cache } from 'react'
 import { Transition } from '@headlessui/react'
 import Image from 'next/image'
-import vmatDemo from '/public/images/vmatdemo.png'
-import vmatTableDemo from '/public/images/vmatdemo2.png'
-import cacheDemo from '/public/images/demo.png'
+
 import { BsMotherboardFill } from "react-icons/bs";
 import { BsMemory } from "react-icons/bs";
 import { BsDeviceSsdFill } from "react-icons/bs";
@@ -116,15 +114,15 @@ export default function Features() {
                     <div className="relative inline-flex flex-col">
                       <Carousel>
                         <div>
-                          <Image src={cacheDemo} alt="" />
+                          <Image src={'/demo.png'} alt=""  width={300} height={300}/>
                           <p className="legend">Legend 1</p>
                         </div>
                         <div>
-                          <Image src={cacheDemo} alt="" />
+                          <Image src={'/demo.png'} alt=""  width={300} height={300}/>
                           <p className="legend">Legend 2</p>
                         </div>
                         <div>
-                          <Image src={cacheDemo} alt="" />
+                          <Image src={'/demo.png'} alt=""  width={300} height={300}/>
                           <p className="legend">Legend 3</p>
                         </div>
                       </Carousel>
@@ -148,7 +146,7 @@ export default function Features() {
                     unmount={false}
                   >
                     <div className="relative inline-flex flex-col">
-                      <Image className="md:max-w-none transform animate-float" src={vmatDemo} width={1000} height={1061} alt="Element" style={{ top: '30%' }} />
+                      <Image className="md:max-w-none transform animate-float" src={'/vmatdemo.png'} width={1000} height={1061} alt="Element" style={{ top: '30%' }} />
                     </div>
                   </Transition>
                   {/* Item 3 */}

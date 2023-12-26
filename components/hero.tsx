@@ -1,5 +1,4 @@
 import ModalVideo from '@/components/modal-video'
-import demo from '/public/images/vmatdemo.png'
 
 
 export default function Hero() {
@@ -43,7 +42,7 @@ export default function Hero() {
 
           {/* Hero image */}
           <ModalVideo
-            thumb={demo}
+            thumb={'/vmatdemo.png'}
             thumbWidth={2021}
             thumbHeight={1104}
             thumbAlt="Computer Systems made easy!"
