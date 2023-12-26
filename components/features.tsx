@@ -114,20 +114,20 @@ export default function Features() {
                     <div className="relative inline-flex flex-col">
                       <Carousel>
                         <div>
-                          <Image src={'/demo.png'} alt=""  width={300} height={300}/>
+                          <img src={'/demo.png'} alt=""  width={300} height={300}/>
                           <p className="legend">Legend 1</p>
                         </div>
                         <div>
-                          <Image src={'/demo.png'} alt=""  width={300} height={300}/>
+                          <img src={'/demo.png'} alt=""  width={300} height={300}/>
                           <p className="legend">Legend 2</p>
                         </div>
                         <div>
-                          <Image src={'/demo.png'} alt=""  width={300} height={300}/>
+                          <img src={'/demo.png'} alt=""  width={300} height={300}/>
                           <p className="legend">Legend 3</p>
                         </div>
                       </Carousel>
 
-                      {/*                       <Image className="md:max-w-none transform animate-float" src={cacheDemo} width={609} height={1011} alt="Element" style={{ top: '30%' }} /> */}
+                      {/*                       <img className="md:max-w-none transform animate-float" src={cacheDemo} width={609} height={1011} alt="Element" style={{ top: '30%' }} /> */}
 
                     </div>
                   </Transition>
@@ -146,7 +146,7 @@ export default function Features() {
                     unmount={false}
                   >
                     <div className="relative inline-flex flex-col">
-                      <Image className="md:max-w-none transform animate-float" src={'/vmatdemo.png'} width={1000} height={1061} alt="Element" style={{ top: '30%' }} />
+                      <img className="md:max-w-none transform animate-float" src={'/vmatdemo.png'} width={1000} height={1061} alt="Element" style={{ top: '30%' }} />
                     </div>
                   </Transition>
                   {/* Item 3 */}
