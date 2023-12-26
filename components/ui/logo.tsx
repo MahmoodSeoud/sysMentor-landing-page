@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import sysMentorLogo from '@/public/images/sysMentorIcon.png'
+import sysMentorLogo from '/public/images/sysMentorIcon.png'
 
 export default function Logo() {
   return (

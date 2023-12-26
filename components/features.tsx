@@ -3,9 +3,9 @@
 import { useState, useRef, useEffect, cache } from 'react'
 import { Transition } from '@headlessui/react'
 import Image from 'next/image'
-import vmatDemo from '@/public/images/vmatdemo.png'
-import vmatTableDemo from '@/public/images/vmatdemo2.png'
-import cacheDemo from '@/public/images/demo.png'
+import vmatDemo from '/public/images/vmatdemo.png'
+import vmatTableDemo from '/public/images/vmatdemo2.png'
+import cacheDemo from '/public/images/demo.png'
 import { BsMotherboardFill } from "react-icons/bs";
 import { BsMemory } from "react-icons/bs";
 import { BsDeviceSsdFill } from "react-icons/bs";

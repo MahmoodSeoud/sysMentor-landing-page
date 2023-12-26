@@ -1,24 +1,24 @@
 {
   "pages": {
     "/_not-found": [
-      "static/chunks/webpack-c365c729fcbc1353.js",
+      "static/chunks/webpack-e39f9897570c6d36.js",
       "static/chunks/fd9d1056-ea4f02c0a4383bef.js",
       "static/chunks/938-5c4476b5ddba16c7.js",
       "static/chunks/main-app-ee9d056b755edad0.js",
       "static/chunks/app/_not-found-111ab176b6437b1b.js"
     ],
     "/layout": [
-      "static/chunks/webpack-c365c729fcbc1353.js",
+      "static/chunks/webpack-e39f9897570c6d36.js",
       "static/chunks/fd9d1056-ea4f02c0a4383bef.js",
       "static/chunks/938-5c4476b5ddba16c7.js",
       "static/chunks/main-app-ee9d056b755edad0.js",
       "static/chunks/986-c2bdbb8e2a75c1f9.js",
       "static/chunks/396-38fa39a084307dce.js",
-      "static/css/f5537633968e780a.css",
-      "static/chunks/app/layout-1b814309e7fc0d1f.js"
+      "static/css/00dbbf56cc14a062.css",
+      "static/chunks/app/layout-2c437c6835b401a8.js"
     ],
     "/(default)/page": [
-      "static/chunks/webpack-c365c729fcbc1353.js",
+      "static/chunks/webpack-e39f9897570c6d36.js",
       "static/chunks/fd9d1056-ea4f02c0a4383bef.js",
       "static/chunks/938-5c4476b5ddba16c7.js",
       "static/chunks/main-app-ee9d056b755edad0.js",
@@ -26,17 +26,17 @@
       "static/chunks/986-c2bdbb8e2a75c1f9.js",
       "static/chunks/2-7cb3231221b3945d.js",
       "static/css/ae4ed9c503fd1e33.css",
-      "static/chunks/app/(default)/page-da3db76c50c5ef24.js"
+      "static/chunks/app/(default)/page-5d6dec0800a1e183.js"
     ],
     "/(default)/layout": [
-      "static/chunks/webpack-c365c729fcbc1353.js",
+      "static/chunks/webpack-e39f9897570c6d36.js",
       "static/chunks/fd9d1056-ea4f02c0a4383bef.js",
       "static/chunks/938-5c4476b5ddba16c7.js",
       "static/chunks/main-app-ee9d056b755edad0.js",
       "static/chunks/986-c2bdbb8e2a75c1f9.js",
       "static/chunks/396-38fa39a084307dce.js",
       "static/css/f76788cadc76491e.css",
-      "static/chunks/app/(default)/layout-1d0b03d55d0a521f.js"
+      "static/chunks/app/(default)/layout-59dee6ffe8b5a8d3.js"
     ]
   }
 }

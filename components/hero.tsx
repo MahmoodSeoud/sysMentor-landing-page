@@ -1,5 +1,5 @@
 import ModalVideo from '@/components/modal-video'
-import demo from '@/public/images/vmatdemo.png'
+import demo from '/public/images/vmatdemo.png'
 
 
 export default function Hero() {

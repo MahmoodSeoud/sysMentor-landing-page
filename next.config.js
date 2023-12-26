@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = { 
+const nextConfig = {
     basePath: '/LANDING/out',
-    output: 'export',
+    output: 'export', //  ->   /_next/static/
 
 }
 
