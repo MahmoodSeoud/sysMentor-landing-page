@@ -2,7 +2,6 @@
 
 import { useState, useRef, useEffect, cache } from 'react'
 import { Transition } from '@headlessui/react'
-import Image from 'next/image'
 
 import { BsMotherboardFill } from "react-icons/bs";
 import { BsMemory } from "react-icons/bs";
@@ -23,6 +22,7 @@ export default function Features() {
   useEffect(() => {
     heightFix()
   }, [])
+
 
   return (
     <section className="relative">
@@ -112,18 +112,28 @@ export default function Features() {
                     unmount={false}
                   >
                     <div className="relative inline-flex flex-col">
-                      <Carousel>
+                      <Carousel
+  dynamicHeight
+                      >
                         <div>
-                          <img src={'/LANDING/out/demo.png'} alt=""  width={300} height={300}/>
-                          <p className="legend">Legend 1</p>
+                          <img src={'/LANDING/out/cachedemo1.png'} alt="" width={1268} height={1229} />
+                          <p className="legend">Overall View</p>
                         </div>
                         <div>
-                          <img src={'/LANDING/out/demo.png'} alt=""  width={300} height={300}/>
-                          <p className="legend">Legend 2</p>
+                          <img src={'/LANDING/out/cachedemo2.png'} alt="" width={2560} height={1200} />
+                          <p className="legend">Cache hit/miss</p>
                         </div>
                         <div>
-                          <img src={'/LANDING/out/demo.png'} alt=""  width={300} height={300}/>
-                          <p className="legend">Legend 3</p>
+                          <img src={'/LANDING/out/cachedemo3.png'} alt="" width={2559} height={1200} />
+                          <p className="legend">Be the cache</p>
+                        </div>
+                        <div>
+                          <img src={'/LANDING/out/cachedemo4.png'} alt="" width={2560} height={1200} />
+                          <p className="legend">Highlighting Bits</p>
+                        </div>
+                        <div>
+                          <img src={'/LANDING/out/cachedemo5.png'} alt="" width={2560} height={1200} />
+                          <p className="legend">Configurable Cache Settings</p>
                         </div>
                       </Carousel>
 
@@ -171,10 +181,10 @@ export default function Features() {
               </div>
             </div>
 
-          </div>
+          </div >
 
-        </div>
-      </div>
-    </section>
+        </div >
+      </div >
+    </section >
   )
 }
