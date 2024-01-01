@@ -1,7 +1,12 @@
+'use client'
 import ModalVideo from '@/components/modal-video'
-
+import ReactCompareImage from 'react-compare-image';
 
 export default function Hero() {
+
+  const before = '/LANDING/out/old-vmat-slider-demo.png'
+  const after = '/LANDING/out/vmat-slider-demo.png'
+
   return (
     <section className="relative">
 
@@ -39,15 +44,14 @@ export default function Hero() {
               </div>
             </div>
           </div>
-
-          {/* Hero image */}
-          <ModalVideo
-            thumb={'/LANDING/out/vmatdemo.png'}
-            thumbWidth={2021}
-            thumbHeight={1104}
-            thumbAlt="Computer Systems made easy!"
-          />
-        
+          <ReactCompareImage
+            leftImage={before}
+            rightImage={after}
+            aspectRatio='wider'
+            sliderLineColor='#0070F4'
+            leftImageLabel='KU'
+            rightImageLabel='SysMentor'
+          />;
         </div>
       </div>
     </section>
