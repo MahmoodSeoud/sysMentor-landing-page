@@ -1497,9 +1497,6 @@ html {
 .cursor-pointer {
   cursor: pointer;
 }
-.resize {
-  resize: both;
-}
 .appearance-none {
   -webkit-appearance: none;
      -moz-appearance: none;
