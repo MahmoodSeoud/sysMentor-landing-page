@@ -6,8 +6,6 @@ import { Transition } from '@headlessui/react'
 import { BsMotherboardFill } from "react-icons/bs";
 import { BsMemory } from "react-icons/bs";
 import { BsDeviceSsdFill } from "react-icons/bs";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from 'react-responsive-carousel';
 
 export default function Features() {
 
@@ -58,7 +56,7 @@ export default function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">Virtual memory address translation</div>
-                    <div className="text-gray-600">Demystify virtual memory address translation with sysMentor's user-friendly approach, turning complexity into clarity.</div>
+                    <div className="text-gray-600">Demystify virtual memory address translation with sysMentor's user-friendly approach, turning complexity into clarity. </div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <BsDeviceSsdFill />
@@ -71,7 +69,7 @@ export default function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">Cache simulation</div>
-                    <div className="text-gray-600">Explore the fascinating world of cache simulation on sysMentor, where you get to be the cache! </div>
+                    <div className="text-gray-600">Explore the fascinating world of cache simulation on sysMentor, where you get to be the cache!</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <BsMemory />
@@ -111,35 +109,26 @@ export default function Features() {
                     beforeEnter={() => heightFix()}
                     unmount={false}
                   >
-                    <div className="relative inline-flex flex-col">
-                      <Carousel
-  dynamicHeight
-                      >
-                        <div>
-                          <img src={'/LANDING/out/cachedemo1.png'} alt="" width={1268} height={1229} />
-                          <p className="legend">Overall View</p>
-                        </div>
-                        <div>
-                          <img src={'/LANDING/out/cachedemo2.png'} alt="" width={2560} height={1200} />
-                          <p className="legend">Cache hit/miss</p>
-                        </div>
-                        <div>
-                          <img src={'/LANDING/out/cachedemo3.png'} alt="" width={2559} height={1200} />
-                          <p className="legend">Be the cache</p>
-                        </div>
-                        <div>
-                          <img src={'/LANDING/out/cachedemo4.png'} alt="" width={2560} height={1200} />
-                          <p className="legend">Highlighting Bits</p>
-                        </div>
-                        <div>
-                          <img src={'/LANDING/out/cachedemo5.png'} alt="" width={2560} height={1200} />
-                          <p className="legend">Configurable Cache Settings</p>
-                        </div>
-                      </Carousel>
+                    <div
+                      className="relative inline-flex flex-col">
+                      <img
+                        src={'/LANDING/out/vmat-demo.png'}
+                        alt=""
+                        width={1135}
+                        height={1060}
+                      />
 
-                      {/*                       <img className="md:max-w-none transform animate-float" src={cacheDemo} width={609} height={1011} alt="Element" style={{ top: '30%' }} /> */}
-
+                      <p>
+                        Find it <a
+                          href='https://abdsecondhand.site/VMAT/dist/index.html'
+                          className='text-blue-500 hover:text-blue-700 underline'
+                          target='_blank'
+                        >
+                          here
+                        </a>
+                      </p>
                     </div>
+
                   </Transition>
                   {/* Item 2 */}
                   <Transition
@@ -156,7 +145,21 @@ export default function Features() {
                     unmount={false}
                   >
                     <div className="relative inline-flex flex-col">
-                      <img className="md:max-w-none transform animate-float" src={'/LANDING/out/vmatdemo.png'} width={1000} height={1061} alt="Element" style={{ top: '30%' }} />
+                      <img
+                        className="md:max-w-none transform animate-float"
+                        src={'/LANDING/out/cache-demo.png'}
+                        alt="Element"
+                        style={{ top: '30%' }}
+                        width={500}
+                        height={500}
+                      />
+                      <p>Find it <a
+                        href='https://abdsecondhand.site/CACHE/dist/index.html'
+                        className='text-blue-500 hover:text-blue-700 underline'
+                      >
+                        here
+                      </a>
+                      </p>
                     </div>
                   </Transition>
                   {/* Item 3 */}
