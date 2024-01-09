@@ -38,7 +38,7 @@ export default function Header() {
             {/* Desktop sign in links */}
             <ul className="flex grow justify-end flex-wrap items-center">
               <li>
-                  <a className="btn text-white bg-blue-600 hover:bg-blue-700 shadow" href="#0">Join SysMentor</a>
+                  <a className="btn text-white bg-blue-600 hover:bg-blue-700 shadow" href="#0">Subscribe</a>
               </li>
             </ul>
 

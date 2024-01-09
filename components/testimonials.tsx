@@ -60,7 +60,11 @@ export default function Testimonials() {
                 </blockquote>
                 <cite className="block font-bold text-lg not-italic mb-1">Axel Kanne</cite>
                 <div className="text-gray-600">
-                  <span>Compsy TA</span> <a className="text-blue-600 hover:underline" href="https://www.ku.dk/">@KU</a>
+                  <span>CompSys TA</span> <a
+                    className="text-blue-600 hover:underline"
+                    href="https://www.ku.dk/"
+                    target='_blank'
+                  >@KU</a>
                 </div>
               </div>
 

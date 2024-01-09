@@ -113,6 +113,7 @@ export default function Features() {
                       className="relative inline-flex flex-col">
                       <img
                         src={'/LANDING/out/vmat-demo.png'}
+                        className="md:max-w-none transform"
                         alt=""
                         width={1135}
                         height={1060}
@@ -146,7 +147,7 @@ export default function Features() {
                   >
                     <div className="relative inline-flex flex-col">
                       <img
-                        className="md:max-w-none transform animate-float"
+                        className="md:max-w-none transform"
                         src={'/LANDING/out/cache-demo.png'}
                         alt="Element"
                         style={{ top: '30%' }}
