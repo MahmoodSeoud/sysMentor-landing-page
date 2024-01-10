@@ -30,21 +30,22 @@ export default function Header() {
           {/* Site branding */}
           <div className="flex shrink-0 mr-4">
             <Logo />
-            <p className='h3'>sysMentor</p>
+            <p className='h3'>SysMentor</p>
           </div>
 
-       {/* Desktop navigation */}
+          {/* Desktop navigation */}
           <nav className="hidden md:flex md:grow">
             {/* Desktop sign in links */}
             <ul className="flex grow justify-end flex-wrap items-center">
               <li>
-                  <a className="btn text-white bg-blue-600 hover:bg-blue-700 shadow" href="#0">Subscribe</a>
+                <a className="btn text-white bg-blue-600 hover:bg-blue-700 shadow"
+                  href="#hero">Subscribe</a>
               </li>
             </ul>
 
           </nav>
 
-{/*           <MobileMenu /> */}
+          {/*           <MobileMenu /> */}
 
         </div>
       </div>
