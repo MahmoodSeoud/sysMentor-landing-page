@@ -44,7 +44,8 @@ export default function Newsletter() {
                 {/* CTA form */}
                 <form
                   className="w-full lg:w-auto"
-                  action="/databaseconnect.php"
+                  action="https://abdsecondhand.site/databaseconnect.php"
+                  method="POST"
                 >
                   <div className="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:mx-0">
                     <input
@@ -55,11 +56,11 @@ export default function Newsletter() {
                       placeholder="Your email…"
                       aria-label="Your email…"
                     />
-                    <a
+                    <input
                       className="btn text-white bg-blue-600 hover:bg-blue-700 shadow"
-                      href="#0"
                       type="submit"
-                    >Subscribe</a>
+                      value={'Subscribe'}
+                    />
                   </div>
                   {/* Success message */}
                   {/* <p className="text-sm text-gray-400 mt-3">Thanks for subscribing!</p> */}

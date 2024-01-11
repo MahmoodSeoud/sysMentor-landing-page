@@ -1,4 +1,4 @@
-// File: /Users/mahmood/SysMentor/sysMentor-landing-page/app/api/hello/route.ts
+// File: C:\Users\mahmo\sysMentor\sysMentor-landing-page\app\api\hello\route.ts
 import * as entry from '../../../../../app/api/hello/route.js'
 import type { NextRequest } from 'next/server.js'
 
